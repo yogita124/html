@@ -1,0 +1,96 @@
+ .first{
+    background-color:
+    hsl(325, 100%, 64%);
+    height: 65px;
+    width: auto;
+    padding: 50px;
+    margin: 5px;
+    margin-top: 30px;
+  }
+  .second{
+    background-color:
+    hsl(325, 100%, 51%);
+    height: 40%;
+    width: auto;
+    padding: 20px;
+    margin: 5px;
+  }
+  .third{
+    background-color:
+    hsl(325, 63%, 47%);
+    height: 40%;
+    width: auto;
+    padding: 20px;
+    margin: 5px;
+    margin-left: -25px;
+  }
+  .forth{
+    background-color:
+    hsl(325, 68%, 20%);
+    height: 65px;
+    width: auto;
+    padding: 50px;
+    margin: 5px;
+  }
+  .five{
+    background-color:
+    hsl(204, 100%, 75%);
+    height: 55px;
+    width: auto;
+    padding: 15px;
+    padding-left: 50%;
+    margin: 5px;
+    margin-top: 30px;
+  }
+  .six{
+    background-color:
+    hsla(96, 41%, 56%, 0.815);
+    height: 40%;
+    width: auto;
+    padding: 15px;
+    padding-left: 37%;
+    margin: 5px;
+  }
+  .seven{
+    background-color:
+    hsl(61, 78%, 55%);
+    height: 30%;
+    width: auto;
+    padding: 15px;
+    padding-left: 50%;
+    margin: 5px;
+    margin-left: -25px;
+  }
+  .eight{
+    background-color:
+    hsl(51, 84%, 48%);
+    height: 55px;
+    width: auto;
+    padding: 15px;
+    padding-left: 50%;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+  .nine{
+    background-color: rgba(117, 117, 117, 0.89);
+    height: 8%;
+    width: auto;
+    padding: 15px;
+    padding-left: 50%;
+    margin: 5px;
+    margin-left: -25px;
+  }
+  b{
+    color: white;
+  }
+  .margin{
+    margin-top: -40px;
+  }
+  .down{
+    background-color:
+    hsl(325, 100%, 64%);
+    height: 132px;
+    width: auto;
+    padding: 50px;
+    margin: 5px;
+  }
