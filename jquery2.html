@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>jquery2</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+    #slide,#btn{
+        background-color: rgb(161, 233, 233);
+         width: 30%;
+         text-align: center;
+         margin-left: 35%;
+    }
+    #slide{
+    display: none;
+    height: 20%;
+    }
+</style>
+    </head>
+    <div id="btn">Click me to slide down panel</div>
+    <div id="slide">
+        Hello world
+    </div>
+    <script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+        $("#slide").slideDown();
+    });
+    });
+    </script>
+</html>
