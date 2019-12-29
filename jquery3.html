@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>jquery3</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+       <form>
+           First name:<br>
+           <input id="id1" type="name" value="" placeholder="first"/><br>
+           Last name:<br>
+           <input id="id2" type="name" value="" placeholder="last"/><br>
+       </form>
+      <button type="submit">Submit</button>
+      <script type="text/javascript">
+      $("document").ready(function(){
+          $("button").click(function(){
+              if($("#id1").val()==""||$("#id2").val()=="")
+                 alert("Fill all field")
+          });
+      });
+      </script>
+    </body>
+</html>
